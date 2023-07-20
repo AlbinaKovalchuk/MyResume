@@ -1,0 +1,188 @@
+:root {
+    --background-color: #595959;
+    --primary-background-color: #d7d7d7;
+    --sidebar-background-color: #1E2939;
+    --primary-text-color: #062e4a;
+    --sidebar-text-color: #FFFFFF;
+    --accent-text-color: #eb985d;
+    --sidebar-accent-text-color: #f3a065;
+    --hover-text-color: #f76a06;
+    --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding-left: 0;
+    /* list-style: none; */
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-content {
+    width: 100%;
+    background-color: var(--primary-background-color);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 60px 60px;
+}
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about-text {
+    font-weight: 400;
+    text-align: justify;
+}
+
+.about-title {
+    text-align: center;
+}
+
+/* h1 */
+.about-name {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 15px;
+
+}
+
+/* h2 */
+.about-position {
+    font-size: 20px;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+
+/* h3 */
+.main_title,
+.sidebar-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.projects,
+.work,
+.education {
+    margin-bottom: 30px;
+}
+
+.projects-list,
+.work-list,
+.skills-list {
+    padding: 0px;
+    margin-left: 40px;
+}
+
+.work-position {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.organization {
+    color: var(--background-color);
+}
+
+.period {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.work-list-item {
+    font-weight: 400;
+    color: var(--background-color);
+}
+
+/* education styles*/
+.education-name {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--accent-text-color);
+}
+
+.about-link,
+.project-link {
+    color: var(--accent-text-color);
+}
+
+.about-link:hover,
+.about-link:focus,
+.project-link:hover,
+.project-link:focus {
+    color: var(--hover-text-color);
+}
+
+/*sidebar stules */
+.sidebar {
+    width: 370px;
+    background-color: var(--sidebar-background-color);
+    color: var(--sidebar-text-color);
+}
+
+.photo {
+    margin-top: 40px;
+    /* cover */
+}
+
+.contacts,
+.skills {
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.contact-link,
+.skill-text {
+    color: #f1f1f1;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--hover-text-color);
+}
+
+.skill-item {
+    color: var(--sidebar-accent-text-color);
+}
