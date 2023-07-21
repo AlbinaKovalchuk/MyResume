@@ -133,7 +133,6 @@ body {
     color: var(--background-color);
 }
 
-/* education styles*/
 .education-name {
     font-size: 16px;
     line-height: 20px;
@@ -154,14 +153,13 @@ body {
 
 /*sidebar stules */
 .sidebar {
-    width: 370px;
+    width: 400px;
     background-color: var(--sidebar-background-color);
     color: var(--sidebar-text-color);
 }
 
 .photo {
     margin-top: 40px;
-    /* cover */
 }
 
 .contacts,
